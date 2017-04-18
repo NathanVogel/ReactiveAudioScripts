@@ -164,11 +164,11 @@ AudioTool.prototype = {
 
 var App = function() {
   console.log("app is running");
-  this.canvas = document.getElementsByTagName("canvas")[0];
-  this.w = window.innerWidth;
-  this.h = window.innerHeight;
-  this.canvas.width = this.w;
-  this.canvas.height = this.h;
+//   this.canvas = document.getElementsByTagName("canvas")[0];
+//   this.w = window.innerWidth;
+//   this.h = window.innerHeight;
+//   this.canvas.width = this.w;
+//   this.canvas.height = this.h;
   this.ctx = this.canvas.getContext("2d");
   this.tool = null;
   this.isMic = false;
