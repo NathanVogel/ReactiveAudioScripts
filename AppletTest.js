@@ -238,4 +238,4 @@ App.prototype = {
 
 };
 
-window.addEventListener("DOMContentLoaded", function(e) { new App(); });
+new App();
