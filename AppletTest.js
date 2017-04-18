@@ -238,4 +238,5 @@ App.prototype = {
 
 };
 
+console.log("Going to run up app :");
 new App();
