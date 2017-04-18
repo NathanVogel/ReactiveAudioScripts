@@ -1,3 +1,6 @@
+console.log("Inside AppletTest.js");
+
+
 var AudioTool = function(mp3) {
   this.soundURL = mp3 || null;
   this.audioContext = null;
