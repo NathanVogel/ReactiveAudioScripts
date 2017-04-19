@@ -169,7 +169,7 @@ var App = function() {
 //   this.h = window.innerHeight;
 //   this.canvas.width = this.w;
 //   this.canvas.height = this.h;
-  this.ctx = this.canvas.getContext("2d");
+//   this.ctx = this.canvas.getContext("2d");
   this.tool = null;
   this.isMic = false;
 
