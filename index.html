@@ -1,23 +1,41 @@
+<!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <title>Break The Youtube</title>
+
     <style>
       body {
         margin: 20px;
         padding: 0px;
         max-width: 400px;
+        line-height: 1.42;
         /*color: 'black';*/
         /*background-image: url("img/IMG_0288.jpg");*/
         /*background-repeat:no-repeat;
-    background-position:center;
-    background-size:cover;*/
+      background-position:center;
+      background-size:cover;*/
         font-family: sans-serif;
+      }
+
+      .small {
+        font-size: 8px;
+      }
+
+      ol {
+        margin-top: 5px;
+      }
+
+      .no-bottom-margin {
+        margin-bottom: 0px;
       }
     </style>
   </head>
   <body>
     <p>
       <strong>How to Break The Youtube</strong> <br />
-      Open Google Chrome and drag-and-drop this link to your bookmark bar:
+      Open Google Chrome or Firefox and drag-and-drop this link to your bookmark
+      bar:
     </p>
     <h3>
       <a
@@ -32,31 +50,38 @@
       example, and click on the bookmark after the YouTube page has fully
       loaded.
     </p>
-    <p>
-      <strong>macOS users</strong><br />
-      If you can't drag-and-drop the link, right-click the link and 'Copy Link
-      Address'. Then, bookmark this page, click 'Other...', rename the bookmark
-      to something like 'BreakTheYoutube', clear the URL field and and paste the
-      link you just copied instead.
+    <p class="no-bottom-margin">
+      <strong>Chrome+macOS users</strong><br />
+      If you can't drag-and-drop the link:
     </p>
+    <ol>
+      <li>Right-click the link and click "Copy Link Address"</li>
+      <li>Bookmark this page and click "Edit...""</li>
+      <li>Clear the URL field and paste the link you just copied instead.</li>
+    </ol>
     <!--
       <div style="font-size: 8px">
         and click on it while playing <a href="https://www.youtube.com/watch?v=44XYEeD1A1U">AC/DC - T.N.T. (from Live at River Plate)</a> on YouTube.
       </div>
     -->
     <p>
-      <strong>Keyboard controls:</strong><br />
-      Q/W/E/A/S/D: Toggle effects.<br />
+      <strong>If it doesn't work:</strong><br />
+      This project was only tested with Google Chrome and Firefox, with the
+      current YouTube version served to my computer.<br />
+      If it doesn't seem to work with your setup, the alternative is to watch
+      this video.
+    </p>
+    <p class="small">
+      Optional keyboard controls<br />
+      Q: toggle view count <br />
+      W: toggle bottom section <br />
+      E: toggle right section <br />
+      A: toggle top section <br />
+      S: toggle triangles <br />
       <!--
         C/V: -/+ adjust the beat detection threshold.<br />
         X: disable/enable beat detection.<br />
       -->
-    </p>
-    <p>
-      <strong>Warning:</strong><br />
-      This project was only tested with Google Chrome and the current YouTube
-      version served to my computer. It might not work on all YouTube
-      versions.<br />
     </p>
   </body>
 </html>
